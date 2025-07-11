@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&family=Roboto:wght@100..900&display=swap');
 
 .sign-pkp{
     font-family: "Lato", sans-serif;
@@ -12,8 +12,96 @@
 
     padding-top: 0.45em;
     padding-bottom: 0.45em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
 
     width: fit-content;
+}
+
+.sign-db{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 430;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+    text-align: left;
+    line-height: 1em;
+    background-color: rgb(0, 33, 74);
+    color: white;
+
+    padding-top: 0.35em;
+    padding-bottom: 0.40em;
+    padding-left: 0.6em;
+    padding-right: 3em;
+
+    width: fit-content;    
+}
+
+.sign-db-small {
+    font-size: 0.6em;
+}
+
+.sign-obb{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 570;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+
+    text-align: center;
+    line-height: 1em;
+    background-color: rgb(27, 51, 138);
+    color: white;
+
+    padding-top: 0.49em;
+    padding-bottom: 0.5em;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+
+    width: fit-content;    
+}
+
+.sign-ns{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 95,
+      "YTLC" 500;
+
+    text-align: left;
+    line-height: 1em;
+    background-color: rgb(27, 51, 138);
+    color: white;
+
+    border-width: 0.05em;
+    border-color: rgb(27, 51, 138);
+    border-style: solid;
+    width: fit-content; 
+
+    display: flex;
+    flex-direction: row;
+    gap: 0em;   
+}
+.sign-ns-decoration{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: white;
+}
+.sign-ns-name{
+    padding-left: 0.1em;
+    padding-right: 2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.55em;
+}
+.sign-ns-name-long{
+    padding-left: 0.1em;
+    padding-right: 0.5em;
+    padding-top: 0.4em;
+    padding-bottom: 0.55em;
 }
