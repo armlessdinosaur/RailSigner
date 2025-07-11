@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&family=Roboto:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@700&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&family=Roboto:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 .sign-pkp {
     font-family: "Lato", sans-serif;
@@ -355,4 +355,24 @@
     font-size: 0.6em;
     font-weight: 400;
     text-align: center;
+}
+
+.sign-sbb {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    text-align: left;
+    line-height: 1em;
+    background-color: rgb(34, 40, 128);
+    color: white;
+
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    padding-left: 0.25em;
+    padding-right: 1.4em;
+
+    width: fit-content;
+
 }
