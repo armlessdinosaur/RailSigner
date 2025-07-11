@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+
+.sign-pkp{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    letter-spacing: 0.05em;
+    text-align: center;
+    line-height: 1em;
+    background-color: rgb(0, 54, 93);
+    color: white;
+
+    padding-top: 0.45em;
+    padding-bottom: 0.45em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    width: fit-content;
+}
