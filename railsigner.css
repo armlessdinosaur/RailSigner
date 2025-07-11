@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&family=Roboto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&family=Roboto:wght@100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
-.sign-pkp{
+.sign-pkp {
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    font-style: normal; 
+    font-style: normal;
     letter-spacing: 0.05em;
     text-align: center;
     line-height: 1em;
@@ -18,13 +18,13 @@
     width: fit-content;
 }
 
-.sign-db{
+.sign-db {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 430;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+        "wdth" 100;
 
     text-align: left;
     line-height: 1em;
@@ -36,21 +36,22 @@
     padding-left: 0.6em;
     padding-right: 3em;
 
-    width: fit-content;    
+    width: fit-content;
+
 }
 
 .sign-db-small {
     font-size: 0.6em;
 }
 
-.sign-obb{
+.sign-obb {
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 570;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100,
-      "YTLC" 500;
+        "wdth" 100,
+        "YTLC" 500;
 
     text-align: center;
     line-height: 1em;
@@ -62,46 +63,231 @@
     padding-left: 1.3em;
     padding-right: 1.3em;
 
-    width: fit-content;    
+    width: fit-content;
 }
 
-.sign-ns{
+.sign-ns {
     font-family: "Nunito Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-variation-settings:
-      "wdth" 95,
-      "YTLC" 500;
+        "wdth" 95,
+        "YTLC" 500;
 
     text-align: left;
     line-height: 1em;
-    background-color: rgb(27, 51, 138);
+    background-color: #00337f;
     color: white;
 
     border-width: 0.05em;
     border-color: rgb(27, 51, 138);
     border-style: solid;
-    width: fit-content; 
+    width: fit-content;
 
     display: flex;
     flex-direction: row;
-    gap: 0em;   
+    gap: 0em;
 }
-.sign-ns-decoration{
+
+.sign-ns-decoration {
     width: 0.5em;
     height: 0.5em;
     background-color: white;
 }
-.sign-ns-name{
+
+.sign-ns-name {
     padding-left: 0.1em;
     padding-right: 2em;
     padding-top: 0.4em;
     padding-bottom: 0.55em;
 }
-.sign-ns-name-long{
+
+.sign-ns-name-long {
     padding-left: 0.1em;
     padding-right: 0.5em;
     padding-top: 0.4em;
     padding-bottom: 0.55em;
+}
+
+.sign-mav {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 680;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+    text-align: left;
+    line-height: 1em;
+    background-color: rgb(29, 61, 149);
+    color: white;
+
+    padding-top: 0.35em;
+    padding-bottom: 0.15em;
+    padding-left: 0.25em;
+    padding-right: 1.4em;
+
+    width: fit-content;
+
+}
+
+.sign-mav-long {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 680;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+    text-align: left;
+    line-height: 1em;
+    background-color: rgb(37, 66, 148);
+    color: white;
+
+    padding-top: 0.35em;
+    padding-bottom: 0.15em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+
+    width: fit-content;
+
+}
+
+.sign-sncb {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 620;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 91,
+        "YTLC" 500;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    line-height: 1em;
+    background-color: #005AAB;
+    color: white;
+
+    padding-top: 0.4em;
+    padding-bottom: 0.37em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    border-top: solid white 0.2em;
+    border-left: solid white 0.065em;
+    border-right: solid white 0.065em;
+
+    outline: solid 0.05em #005AAB;
+    width: fit-content;
+}
+
+.sign-sncf {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 570;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+
+    text-align: left;
+    line-height: 1em;
+    letter-spacing: 0.01em;
+    background-color: rgb(23, 22, 22);
+    color: white;
+
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 0.75em;
+    padding-right: 3em;
+
+    width: fit-content;
+}
+
+.sign-cd {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+    text-align: left;
+    letter-spacing: 0.01em;
+
+    background-color: rgb(29, 75, 149);
+    color: white;
+
+    padding-top: 0.15em;
+    padding-bottom: 0.1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+
+    width: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+
+}
+
+.sign-cd-name-small {
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.sign-zssk {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 90;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+
+    background-color: rgb(42, 76, 186);
+    color: white;
+
+    padding-top: 0.15em;
+    padding-bottom: 0.10em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    width: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+
+}
+
+.sign-renfe {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    text-align: center;
+
+    letter-spacing: -0.01em;
+    line-height: 0.95em;
+
+    background-color: rgb(66, 67, 66);
+    color: white;
+
+    border-left: solid 0.7em #4e7e4d;
+
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 0.3em;
+    padding-right: 0.2em;
+
+    width: fit-content;
+    min-width: 12em;
+
 }
